@@ -15,6 +15,6 @@ JavaScript: Usado para buscar dados da API e manipular o DOM
 O projeto utiliza a API Advice Slip para obter boletins de aconselhamento aleatórios.
 
 ## Layout da página
-
+![img-result](https://github.com/renanolv7/advice-generator/assets/118858754/742f4aee-709c-4da7-8f4e-ef6a4237eb3f)
 
 
