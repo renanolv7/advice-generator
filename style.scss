@@ -1,0 +1,107 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000;
+    color: white;
+
+    .wrap {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+main {
+    display: flex;
+    justify-content: end;
+}
+
+.container {
+    height: 300px;
+    width: 40%;
+    margin-right: 20%;
+    margin-top: 100px;
+
+
+    .title {
+        font-size: 40px;
+    }
+
+    .buttons .btn {
+        height: 40px;
+        width: 70px;
+
+        background-color: transparent;
+
+        color: rgba(242, 71, 104, 0.8);
+
+        cursor: pointer;
+    }
+
+    .result {
+        padding-top: 100px;
+    }
+
+    .result .aspas {
+        font-size: 50px;
+        color: rgba(158, 0, 236, 1);
+    }
+
+    .result .aspas-dois {
+        display: flex;
+        justify-content: end;
+        font-size: 50px;
+        color: rgba(158, 0, 236, 1);
+    }
+
+    #frase {
+        font-size: 40px;
+        font-style: italic;
+    }
+
+    #frase::before {
+        content: '" ';
+        color: rgba(158, 0, 236, 1);
+    }
+
+    #frase::after {
+        content: ' "';
+        color: rgba(158, 0, 236, 1);
+    }
+}
+
+// LIQUID SHAPE com animação da internet
+.shape {
+
+    background: linear-gradient(64.00916346799386deg, rgba(243, 72, 104, 1) 23.44140625%, rgba(242, 71, 104, 1) 23.44140625%, rgba(158, 0, 236, 1) 79.84765625%);
+    animation: wave 4.0s ease-in-out infinite;
+
+    &:nth-of-type(1) {
+        width: 800px;
+        height: 800px;
+        position: absolute;
+        top: -200px;
+        left: -400px;
+        opacity: 0.3;
+        z-index: -1;
+    }
+
+}
+
+@keyframes wave {
+
+    0%,
+    100% {
+        border-radius: 70% 30% 72% 28% / 27% 61% 39% 73%;
+    }
+
+    50% {
+        border-radius: 77% 23% 54% 46% / 40% 38% 62% 60%;
+    }
+}
