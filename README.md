@@ -1,5 +1,6 @@
 # Gerador de Conselhos
 
+Projeto em andamento
 <br>
 
 ## Descrição do projeto
@@ -7,8 +8,8 @@ Este projeto é uma aplicação Web simples construída com HTML, CSS e JavaScri
 Foi concebido para fornecer aos utilizadores uma forma rápida e fácil de aceder a conselhos úteis sobre vários tópicos.
 
 ## Tecnologias utilizadas
-HTML: Utilizado para a estruturação das páginas web.
-CSS (SASS): Foi usado SASS para melhorar o estilo e a manutenção.
+HTML: Utilizado para a estruturação das páginas web. <br>
+CSS (SASS): Foi usado SASS para melhorar o estilo e a manutenção. <br>
 JavaScript: Usado para buscar dados da API e manipular o DOM
 
 ## API utilizada
